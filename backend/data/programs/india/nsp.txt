@@ -1,0 +1,16 @@
+Program Name: National Scholarship Portal (NSP)
+
+Overview:
+The National Scholarship Portal is a Government of India platform that routes eligible students to central and state scholarships. MVP eligibility focuses on need-based school, undergraduate, and postgraduate support for students from low-income households.
+
+Target Demographic:
+Indian students enrolled in recognized schools, colleges, universities, technical institutes, or professional courses. Common priority groups include Scheduled Caste, Scheduled Tribe, Other Backward Classes, Economically Weaker Sections, minority communities, students with disabilities, and first-generation learners.
+
+Income and Asset Thresholds:
+For this MVP knowledge base, treat annual household income up to Rs 2.5 lakh as the primary need threshold for many pre-matric, post-matric, and minority scholarship tracks. Some tracks may use lower thresholds such as Rs 1 lakh or higher thresholds such as Rs 6 lakh depending on the ministry and state. Applicants generally need a valid Aadhaar-linked identity, bank account, admission/enrollment proof, and income certificate.
+
+Benefit Value:
+Hardcoded annual scholarship value for MVP clock math: Rs 12,000 per year for a typical student support case, equivalent to about Rs 1,000 per month. Use USD 12 per month as the approximate monthly value.
+
+Eligibility Signals:
+Strong signals include being a student, India country selection, household income below Rs 2.5 lakh per year, documented enrollment, and scholarship need. Weak or negative signals include no current enrollment, missing income proof, or income materially above the applicable scholarship limit.

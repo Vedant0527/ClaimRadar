@@ -1,0 +1,16 @@
+Program Name: PM Kisan Samman Nidhi (PM-KISAN)
+
+Overview:
+PM-KISAN provides direct income support to eligible farmer families in India. The benefit is paid in installments to support agricultural household expenses.
+
+Target Demographic:
+Small and marginal farmer families who own cultivable agricultural land in India. The MVP rule treats landholding up to 2 hectares as the core eligibility signal, while excluding institutional landholders and higher-income households.
+
+Income and Asset Thresholds:
+Eligible households should have cultivable land records in the applicant or family name. The MVP knowledge base uses up to 2 hectares of land as the target asset threshold. Exclusion signals include income tax payer status, constitutional office holders, serving or retired government officers above allowed categories, doctors, engineers, lawyers, chartered accountants, and pensioners receiving more than Rs 10,000 per month.
+
+Benefit Value:
+Hardcoded annual benefit for MVP clock math: Rs 6,000 per year, paid as three installments of Rs 2,000. Monthly equivalent is Rs 500. Use USD 6 per month as the approximate monthly value.
+
+Eligibility Signals:
+Strong signals include farmer status, land ownership or cultivable land records, India country selection, rural household context, and no high-income exclusion. Weak or negative signals include no agricultural land, institutional land ownership, or income-tax payer status.

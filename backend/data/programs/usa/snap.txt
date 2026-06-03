@@ -1,0 +1,16 @@
+Program Name: Supplemental Nutrition Assistance Program (SNAP)
+
+Overview:
+SNAP provides monthly food benefits on an Electronic Benefit Transfer card for eligible low-income households in the United States.
+
+Target Demographic:
+United States households with limited income and resources, including families with children, older adults, unemployed workers, underemployed workers, students who meet special exemptions, and people with disabilities.
+
+Income and Asset Thresholds:
+For MVP matching, gross monthly income should generally be at or below 130 percent of the Federal Poverty Level, with net income at or below 100 percent of FPL after deductions. Many households must have countable resources at or below about USD 2,750, or about USD 4,250 when a household member is age 60 or older or has a disability. State rules vary.
+
+Benefit Value:
+Hardcoded monthly benefit for MVP clock math: USD 292 per month for a single-person maximum allotment estimate. Larger households can receive more, such as about USD 975 per month for a household of four at maximum benefit.
+
+Eligibility Signals:
+Strong signals include USA country selection, food insecurity, household income near or below 130 percent FPL, low assets, unemployment or low wages, children, disability, or senior status. Negative signals include income well above limits or ineligible student/immigration status.

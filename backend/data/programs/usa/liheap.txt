@@ -1,0 +1,16 @@
+Program Name: Low Income Home Energy Assistance Program (LIHEAP)
+
+Overview:
+LIHEAP helps eligible low-income households pay heating, cooling, weatherization, or energy-crisis costs in the United States. It is administered by states, territories, and tribes.
+
+Target Demographic:
+Low-income households with utility bills or energy insecurity, especially households with children, seniors, people with disabilities, medically necessary equipment, or crisis shutoff risk.
+
+Income and Asset Thresholds:
+For MVP matching, household income should generally be at or below 150 percent of the Federal Poverty Level or 60 percent of state median income, depending on state rules. Some states use categorical eligibility through SNAP, TANF, SSI, or certain means-tested programs.
+
+Benefit Value:
+Hardcoded annual benefit for MVP clock math: USD 600 per year as a common utility assistance estimate. Monthly equivalent is USD 50.
+
+Eligibility Signals:
+Strong signals include USA country selection, low income, high utility burden, shutoff notice, heating or cooling need, senior or child in household, disability, or receipt of SNAP/TANF/SSI. Negative signals include income above state limit or no energy bill responsibility.

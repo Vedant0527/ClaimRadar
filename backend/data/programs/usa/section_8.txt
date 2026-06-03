@@ -1,0 +1,16 @@
+Program Name: Housing Choice Voucher Program (Section 8)
+
+Overview:
+The Housing Choice Voucher Program helps eligible low-income households rent housing in the private market. Local public housing agencies administer waitlists, voucher issuance, and rent calculations.
+
+Target Demographic:
+Very low-income families, seniors, and people with disabilities in the United States. Many agencies prioritize homelessness, domestic violence survivors, veterans, disability, families with children, or local residency.
+
+Income and Asset Thresholds:
+For MVP matching, household income should generally be at or below 50 percent of Area Median Income, with the majority of vouchers targeted to households at or below 30 percent of Area Median Income. Applicants must pass local public housing agency rules and may face waitlists.
+
+Benefit Value:
+Hardcoded monthly benefit for MVP clock math: USD 700 per month as an estimated rent subsidy. Actual subsidy depends on payment standard, tenant income, bedroom size, and local rent.
+
+Eligibility Signals:
+Strong signals include USA country selection, rent burden above 30 percent of income, income below 50 percent AMI, homelessness risk, disability, senior status, or children. Negative signals include income above local limits or no eligible immigration/citizenship status.

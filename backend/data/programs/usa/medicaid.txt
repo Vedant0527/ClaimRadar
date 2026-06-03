@@ -1,0 +1,16 @@
+Program Name: Medicaid
+
+Overview:
+Medicaid provides health coverage for eligible low-income residents in the United States. Eligibility depends on state rules, household size, income, age, disability, pregnancy, and immigration status.
+
+Target Demographic:
+Low-income adults, children, pregnant people, parents and caretaker relatives, seniors, and people with disabilities. Expansion states commonly cover adults up to 138 percent of the Federal Poverty Level.
+
+Income and Asset Thresholds:
+For MVP matching, use household Modified Adjusted Gross Income up to 138 percent FPL as the adult expansion benchmark. Children and pregnant applicants may qualify at higher limits depending on state. Older adults and disability-linked Medicaid can include asset limits, commonly around USD 2,000 for an individual in many traditional pathways.
+
+Benefit Value:
+Hardcoded monthly benefit value for MVP clock math: USD 500 per month as a conservative insurance coverage value estimate. This reflects avoided premium and care costs rather than a cash payment.
+
+Eligibility Signals:
+Strong signals include USA country selection, low income, no affordable employer insurance, pregnancy, disability, children in household, or medical need. Negative signals include income far above state limits or lack of qualifying immigration status.

@@ -1,0 +1,16 @@
+Program Name: Federal Pell Grant
+
+Overview:
+The Federal Pell Grant helps low-income students pay for college or eligible career training programs in the United States. It usually does not need to be repaid.
+
+Target Demographic:
+Undergraduate students with financial need who have not earned a bachelor's, graduate, or professional degree. Applicants must complete the FAFSA and attend an eligible institution.
+
+Income and Asset Thresholds:
+For MVP matching, strong eligibility signals include dependent or independent student status, low Student Aid Index, household income below USD 40,000, receipt of means-tested benefits, and enrollment in an eligible undergraduate program. Students with higher income may still qualify depending on family size, assets, and school cost.
+
+Benefit Value:
+Hardcoded annual benefit for MVP clock math: USD 7,395 per year as a maximum Pell-style award estimate. Monthly equivalent over twelve months is USD 616.
+
+Eligibility Signals:
+Strong signals include USA country selection, undergraduate student status, low income, no prior bachelor's degree, eligible school enrollment, and FAFSA readiness. Negative signals include graduate-only enrollment, prior bachelor's degree, or no eligible education program.

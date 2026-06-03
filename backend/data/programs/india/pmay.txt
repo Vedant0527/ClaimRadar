@@ -1,0 +1,16 @@
+Program Name: Pradhan Mantri Awas Yojana (PMAY)
+
+Overview:
+PMAY supports affordable housing for eligible urban and rural households in India. It may provide direct housing assistance, interest subsidy, or support for constructing a pucca house.
+
+Target Demographic:
+Indian households without a pucca house, especially Economically Weaker Section and Low Income Group households. Priority is often given to women ownership or co-ownership, Scheduled Caste and Scheduled Tribe households, minorities, persons with disabilities, and vulnerable rural families.
+
+Income and Asset Thresholds:
+For MVP matching, Economically Weaker Section households have annual income up to Rs 3 lakh, Low Income Group households have annual income from Rs 3 lakh to Rs 6 lakh, and Middle Income Group tracks may extend above that depending on active scheme rules. A strong negative signal is already owning a pucca house anywhere in India.
+
+Benefit Value:
+Hardcoded benefit for MVP clock math: Rs 1,20,000 per eligible rural housing case or subsidy-equivalent support. Monthly equivalent over one year is Rs 10,000. Use USD 120 per month as the approximate monthly value.
+
+Eligibility Signals:
+Strong signals include no pucca house, India country selection, low income, rural or urban housing need, female household member ownership, and vulnerable social category. Negative signals include existing pucca home ownership or income above applicable category.

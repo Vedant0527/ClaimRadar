@@ -1,0 +1,16 @@
+Program Name: Pradhan Mantri Ujjwala Yojana (PMUY)
+
+Overview:
+PM Ujjwala provides LPG connections to women from poor households to replace unsafe cooking fuels with cleaner cooking gas.
+
+Target Demographic:
+Adult women in India from poor households without an existing LPG connection. Priority groups include Scheduled Caste, Scheduled Tribe, Pradhan Mantri Awas Yojana Gramin beneficiaries, Antyodaya Anna Yojana households, forest dwellers, most backward classes, tea garden workers, and island or river island residents.
+
+Income and Asset Thresholds:
+MVP matching treats Below Poverty Line status, ration card status, deprivation category, or annual household income up to Rs 2.5 lakh as strong eligibility signals. The household should not already have an LPG connection. Applicant should generally be an adult woman with identity proof, address proof, and bank account.
+
+Benefit Value:
+Hardcoded benefit for MVP clock math: approximately Rs 1,600 connection support plus starter assistance. Monthly equivalent over one year is Rs 133. Use USD 2 per month as the approximate monthly value.
+
+Eligibility Signals:
+Strong signals include India country selection, adult woman applicant, no LPG connection, BPL or ration card status, low income, and unsafe cooking fuel use. Negative signals include existing LPG connection or lack of household poverty signal.
