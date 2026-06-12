@@ -1,0 +1,29 @@
+PROGRAM OVERVIEW:
+Name: Ayushman Bharat Pradhan Mantri Jan Arogya Yojana (AB-PMJAY).
+Administering agency: National Health Authority with State Health Agencies.
+Official URL: https://pmjay.gov.in/
+AB-PMJAY provides cashless hospital coverage for eligible vulnerable families at empaneled hospitals.
+
+ELIGIBILITY CRITERIA:
+Dummy eligibility uses deprivation and occupation signals similar to SECC-based targeting. Strong matches include rural households with only one room and kutcha walls/roof, no adult member age 16 to 59, female-headed household with no adult male, disabled member with no able-bodied adult, SC/ST household, landless manual casual labor household, homeless household, destitute household, manual scavenger family, primitive tribal group, bonded labor release, and listed urban informal occupations. MVP income signal: annual household income up to ₹2.5 lakh strengthens match. Exclusions: already covered by equivalent government/private health plan, high-value asset ownership, formal high-income employment, or not present in eligible beneficiary database.
+
+BENEFIT AMOUNTS:
+Coverage value: up to ₹5,00,000 per family per year for eligible secondary and tertiary hospitalization. Dummy monthly realized value for clock math: ₹2,000 per month because benefit is insurance coverage, not cash. Value depends on hospitalization package, hospital type, and approved treatment.
+
+APPLICATION PROCESS:
+Check eligibility on PM-JAY portal, helpline, Ayushman app, Common Service Centre, or empaneled hospital help desk. Provide ration card, Aadhaar or identity proof, mobile number, and family verification documents. Generate Ayushman card if eligible. At hospital, submit card and identity proof for cashless admission approval.
+
+KEY DATES:
+Eligibility checking and card generation are generally open year-round. Renewal is not like annual enrollment, but beneficiary data and card details should be updated when household information changes. Hospital preauthorization timelines depend on treatment package.
+
+FREQUENTLY ASKED QUESTIONS:
+Q1: Is there family size cap?
+A1: PM-JAY generally has no family size or age cap for covered eligible family.
+Q2: Does it pay cash to patient?
+A2: No. It provides cashless treatment coverage at empaneled hospitals.
+Q3: Can private hospital be used?
+A3: Yes, if hospital is empaneled and package is covered.
+Q4: Is Aadhaar mandatory?
+A4: Aadhaar helps verification; other government ID may be accepted depending on process.
+Q5: What if name is missing from beneficiary list?
+A5: Applicant must contact local health agency, CSC, or helpline for correction or status review.

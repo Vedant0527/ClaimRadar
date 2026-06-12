@@ -1,0 +1,29 @@
+PROGRAM OVERVIEW:
+Name: Housing Choice Voucher Program (Section 8).
+Administering agency: U.S. Department of Housing and Urban Development with local Public Housing Agencies.
+Official URL: https://www.hud.gov/topics/housing_choice_voucher_program_section_8
+Housing Choice Vouchers help eligible low-income households rent private-market housing that meets program rules.
+
+ELIGIBILITY CRITERIA:
+Household must meet local PHA income, citizenship/eligible immigration, background, and family composition rules. Dummy income rule: generally at or below 50% of Area Median Income, with most new vouchers targeted to extremely low-income households at or below 30% AMI. Priority may apply for homelessness, disability, seniors, veterans, domestic violence survivors, local residents, or families with children. Exclusions: income above PHA limit, certain criminal history, eviction from federally assisted housing for drug-related activity within restricted period, debt to PHA without resolution, or ineligible immigration status.
+
+BENEFIT AMOUNTS:
+Dummy monthly subsidy value: $700 per month for clock math. Actual subsidy equals PHA payment standard minus tenant contribution, usually about 30% of adjusted monthly income, subject to rent reasonableness and unit size. Tenant may pay more if rent exceeds payment standard within program limits.
+
+APPLICATION PROCESS:
+Apply to local PHA when waitlist is open. Provide identity, Social Security numbers, birth certificates, income proof, assets, disability/senior/veteran preference proof if applicable, landlord history, immigration/citizenship documents, and consent forms. After selection, attend briefing, receive voucher, find unit, pass inspection, sign lease and Housing Assistance Payment contract.
+
+KEY DATES:
+Waitlists open and close by local PHA; some open for days only, others remain closed for years. Applicant must respond to update notices by deadline or lose place. Recertification usually occurs annually, with interim reporting for income or household changes.
+
+FREQUENTLY ASKED QUESTIONS:
+Q1: Is Section 8 open year-round?
+A1: No. Local waitlists may be closed or briefly open.
+Q2: Can voucher be used anywhere?
+A2: Initially rules depend on issuing PHA; portability may allow move after requirements.
+Q3: Does voucher cover full rent?
+A3: Usually no. Tenant generally pays about 30% of adjusted income.
+Q4: Can landlord refuse voucher?
+A4: Source-of-income protections vary by state/local law.
+Q5: Can undocumented household members live in assisted unit?
+A5: Mixed-status rules can prorate assistance; eligibility depends on household composition and documentation.

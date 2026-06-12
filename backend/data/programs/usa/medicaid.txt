@@ -1,0 +1,29 @@
+PROGRAM OVERVIEW:
+Name: Medicaid.
+Administering agency: Centers for Medicare & Medicaid Services with state Medicaid agencies.
+Official URL: https://www.medicaid.gov/
+Medicaid provides health coverage for eligible low-income people in the United States.
+
+ELIGIBILITY CRITERIA:
+Eligibility depends on state, household size, Modified Adjusted Gross Income, category, age, disability, pregnancy, and immigration status. Dummy adult expansion rule: adults age 19 to 64 qualify up to 138% FPL in expansion states. Children and pregnant applicants often qualify at higher limits. Seniors and disability-linked pathways may use income and asset tests; dummy asset threshold is $2,000 for individual traditional Medicaid path. Exclusions: income above state/category limit, non-qualified immigration status, failure to provide verification, or access to another program category that changes calculation.
+
+BENEFIT AMOUNTS:
+Medicaid is health insurance, not cash. Dummy monthly value for clock math: $500 per month as avoided premium and care-cost value. Actual value depends on covered services, managed care plan, state rules, and medical use. Covered benefits commonly include doctor visits, hospital care, lab services, preventive care, prescription drugs, maternity care, and long-term services for eligible groups.
+
+APPLICATION PROCESS:
+Apply through HealthCare.gov, state Medicaid portal, local social services agency, phone, mail, or in person. Provide identity, Social Security number where required, immigration status, household members, income, tax filing status, pregnancy/disability proof if applicable, and current insurance information. State verifies electronically or requests documents.
+
+KEY DATES:
+Applications are generally accepted year-round. Medicaid can provide retroactive coverage in some states/pathways, often up to 3 months before application if eligible then. Renewal/redetermination usually happens annually, and state sends notice before due date.
+
+FREQUENTLY ASKED QUESTIONS:
+Q1: Is Medicaid same as Medicare?
+A1: No. Medicaid is need-based; Medicare is mainly age/disability/work-history based.
+Q2: Can adult without children qualify?
+A2: Yes in expansion states if income is within expansion limit.
+Q3: Does Medicaid have monthly premium?
+A3: Many Medicaid groups have no premium, but state rules vary.
+Q4: Can pregnant person qualify with higher income?
+A4: Yes, pregnancy pathways often use higher income limits.
+Q5: What happens if income changes?
+A5: Recipient must report change; state may redetermine eligibility.

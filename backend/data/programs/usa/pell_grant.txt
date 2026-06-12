@@ -1,0 +1,29 @@
+PROGRAM OVERVIEW:
+Name: Federal Pell Grant.
+Administering agency: U.S. Department of Education Federal Student Aid.
+Official URL: https://studentaid.gov/understand-aid/types/grants/pell
+Federal Pell Grant helps low-income undergraduate students pay for eligible college or career training and usually does not require repayment.
+
+ELIGIBILITY CRITERIA:
+Applicant must be U.S. citizen or eligible noncitizen, have valid FAFSA, demonstrate financial need, and be enrolled in eligible undergraduate program without prior bachelor's, graduate, or professional degree in most cases. Dummy strong income signal: household income below $40,000, very low Student Aid Index, or family receiving means-tested benefit. Exclusions: defaulted federal student loan without resolution, no high school diploma/equivalent where required, ineligible school/program, incarceration limits depending on program, or lifetime Pell eligibility used up.
+
+BENEFIT AMOUNTS:
+Dummy annual maximum Pell-style value: $7,395 per award year. Monthly equivalent for clock math: $616 over 12 months. Actual grant depends on Student Aid Index, cost of attendance, enrollment intensity, full-time/part-time status, and remaining lifetime eligibility.
+
+APPLICATION PROCESS:
+Create StudentAid.gov account, complete FAFSA, list schools, respond to verification requests, review financial aid offer, enroll in eligible program, and maintain satisfactory academic progress. Documents may include tax records, W-2s, untaxed income proof, dependency documents, identity verification, and school forms.
+
+KEY DATES:
+FAFSA generally opens before award year and federal deadline is usually June 30 after academic year. State and college priority deadlines can be much earlier, often January through March. Renewal FAFSA is required each award year.
+
+FREQUENTLY ASKED QUESTIONS:
+Q1: Must Pell Grant be repaid?
+A1: Usually no, unless student withdraws, receives overpayment, or eligibility changes.
+Q2: Can part-time student receive Pell?
+A2: Yes, award prorates by enrollment intensity.
+Q3: Can graduate student receive Pell?
+A3: Usually no, except limited post-baccalaureate teacher certification cases.
+Q4: Does FAFSA determine Pell?
+A4: Yes, FAFSA data drives Student Aid Index and eligibility.
+Q5: Can student with job qualify?
+A5: Yes, if financial need remains within Pell calculation.

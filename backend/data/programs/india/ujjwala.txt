@@ -1,0 +1,29 @@
+PROGRAM OVERVIEW:
+Name: Pradhan Mantri Ujjwala Yojana (PMUY).
+Administering agency: Ministry of Petroleum and Natural Gas through public sector oil marketing companies.
+Official URL: https://www.pmuy.gov.in/
+PMUY provides LPG connections to women from poor households to reduce unsafe cooking fuel use.
+
+ELIGIBILITY CRITERIA:
+Applicant should be adult woman, age 18 or above, from poor household in India with no existing LPG connection in household. Strong dummy categories: SC/ST household, PMAY-Gramin beneficiary, Antyodaya Anna Yojana cardholder, forest dweller, most backward class, tea and ex-tea garden tribe, island or river island resident, or low-income ration card household. Dummy income signal: annual household income up to ₹2.5 lakh. Exclusions: existing LPG connection in household, duplicate connection, invalid KYC, applicant below 18, or household not matching poverty/category rules.
+
+BENEFIT AMOUNTS:
+Connection support dummy value: about ₹1,600 for LPG connection assistance. Additional starter support may include first refill and stove loan/subsidy depending on active policy. Monthly equivalent for clock math: ₹133 per month over 12 months. Refill subsidy value varies by government notification and market price.
+
+APPLICATION PROCESS:
+Apply at LPG distributor or PMUY portal. Submit Aadhaar, proof of address, ration card or family composition document, bank account, mobile number, category proof if applicable, and declaration of no existing LPG connection. Distributor verifies KYC, issues connection, and links bank account for subsidy where applicable.
+
+KEY DATES:
+Enrollment is generally open during active PMUY phases and special drives. KYC correction and connection activation deadlines are distributor-specific. Refill subsidy timelines depend on government policy and DBT processing.
+
+FREQUENTLY ASKED QUESTIONS:
+Q1: Can male head of household apply?
+A1: PMUY applicant should be adult woman from eligible household.
+Q2: Can household with LPG connection apply again?
+A2: No. Existing LPG connection is exclusion signal.
+Q3: Is ration card required?
+A3: Ration card or equivalent family document is commonly needed.
+Q4: Is first refill free?
+A4: It depends on current scheme phase and announced subsidy support.
+Q5: Can migrant family apply?
+A5: Yes, if identity, address, and eligible household documents satisfy distributor KYC.

@@ -1,0 +1,29 @@
+PROGRAM OVERVIEW:
+Name: Supplemental Nutrition Assistance Program (SNAP).
+Administering agency: U.S. Department of Agriculture Food and Nutrition Service with state SNAP agencies.
+Official URL: https://www.fns.usda.gov/snap/supplemental-nutrition-assistance-program
+SNAP gives monthly food benefits through an EBT card for eligible low-income households.
+
+ELIGIBILITY CRITERIA:
+Applicant household must live in the United States and meet state SNAP rules. FY2024 gross monthly income limits at 130% of federal poverty level for 48 states/DC dummy matching: household size 1 = $1,580; 2 = $2,137; 3 = $2,694; 4 = $3,250; 5 = $3,807; 6 = $4,364; 7 = $4,921; 8 = $5,478; add $557 for each additional person. Net income usually must be at or below 100% FPL after deductions. Resource limit dummy: $2,750, or $4,250 if household includes person age 60+ or disabled. Exclusions: certain students without exemption, some non-citizens, intentional program violation disqualification, and work-rule noncompliance for ABAWD adults where applicable.
+
+BENEFIT AMOUNTS:
+FY2024 maximum monthly allotment dummy for 48 states/DC: 1 person $291, 2 $535, 3 $766, 4 $973, 5 $1,155, 6 $1,386, 7 $1,532, 8 $1,751, plus $219 for each additional person. Estimated benefit is max allotment minus 30% of net income. Clock math may use $291 per month for one-person maximum or household-size amount when known.
+
+APPLICATION PROCESS:
+Apply through state SNAP website, local human services office, phone, mail, or in person. Provide identity, Social Security numbers where required, immigration documents if applicable, proof of income, rent/mortgage, utilities, childcare, medical costs for elderly/disabled members, bank/resource proof, and interview. Expedited SNAP may issue faster if household has very low income/resources.
+
+KEY DATES:
+Applications are accepted year-round. Interview and verification deadlines are usually within 30 days, or about 7 days for expedited cases. Recertification is typically every 6 to 12 months, with shorter or longer periods depending on household type and state.
+
+FREQUENTLY ASKED QUESTIONS:
+Q1: Can unemployed person receive SNAP?
+A1: Yes, if income/resource rules and work rules are met.
+Q2: Do SNAP benefits roll over?
+A2: Yes, unused EBT balance can carry over, but long inactivity may trigger rules.
+Q3: Can college student qualify?
+A3: Yes, if student meets exemption such as work hours, work-study, caring for child, disability, or certain programs.
+Q4: Is rent counted?
+A4: Rent and utilities can reduce net income through deductions.
+Q5: Can undocumented person receive SNAP?
+A5: Undocumented people are generally ineligible, but eligible citizen children may qualify in mixed-status households.

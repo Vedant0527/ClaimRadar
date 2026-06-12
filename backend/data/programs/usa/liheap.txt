@@ -1,0 +1,29 @@
+PROGRAM OVERVIEW:
+Name: Low Income Home Energy Assistance Program (LIHEAP).
+Administering agency: U.S. Department of Health and Human Services with state, territory, tribal, and local agencies.
+Official URL: https://www.acf.hhs.gov/ocs/programs/liheap
+LIHEAP helps eligible low-income households with heating, cooling, crisis, weatherization, or energy-related minor home repairs.
+
+ELIGIBILITY CRITERIA:
+Household must be responsible for home energy costs directly or through rent and meet local income rules. Dummy income limit: at or below 150% FPL or 60% of state median income, whichever state adopts. Categorical eligibility may apply through SNAP, SSI, TANF, or certain means-tested programs. Priority groups include seniors, children under 6, people with disabilities, medically necessary equipment users, and households with shutoff notice. Exclusions: income above local limit, no energy-cost responsibility, duplicate seasonal benefit, missing utility bill, or non-resident status.
+
+BENEFIT AMOUNTS:
+Dummy annual benefit value: $600 per year, treated as $50 per month for clock math. Crisis grants may be higher when shutoff or fuel emergency exists. Benefit calculation considers income, household size, fuel type, region, energy burden, vulnerable members, and available funds.
+
+APPLICATION PROCESS:
+Apply through state/local LIHEAP agency, community action agency, tribal office, online portal, mail, or in person. Provide ID, Social Security numbers where required, proof of income, utility bill, shutoff notice if crisis, lease/rent proof if utilities included, and proof of vulnerable member when relevant.
+
+KEY DATES:
+Heating season often opens October to November. Cooling season may open spring or summer where funded. Crisis applications may be accepted during emergency windows. Renewal is seasonal or annual; funds can close early when exhausted.
+
+FREQUENTLY ASKED QUESTIONS:
+Q1: Can renter qualify?
+A1: Yes, if renter has energy cost directly or included in rent under local rules.
+Q2: Does LIHEAP pay applicant directly?
+A2: Often payment goes to utility or fuel vendor.
+Q3: Can shutoff notice speed application?
+A3: Yes, crisis processing may be faster.
+Q4: Can household receive SNAP and LIHEAP?
+A4: Yes, SNAP can support categorical eligibility in some states.
+Q5: Is benefit guaranteed every year?
+A5: No. Eligibility, funding, season, and priority rules affect approval.
