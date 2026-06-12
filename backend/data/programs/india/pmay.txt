@@ -1,16 +1,29 @@
-Program Name: Pradhan Mantri Awas Yojana (PMAY)
+PROGRAM OVERVIEW:
+Name: Pradhan Mantri Awas Yojana (PMAY).
+Administering agency: Ministry of Housing and Urban Affairs for PMAY-Urban; Ministry of Rural Development for PMAY-Gramin.
+Official URL: https://pmaymis.gov.in/ and https://pmayg.nic.in/
+PMAY supports eligible households needing pucca housing through assistance, subsidy, or beneficiary-led construction.
 
-Overview:
-PMAY supports affordable housing for eligible urban and rural households in India. It may provide direct housing assistance, interest subsidy, or support for constructing a pucca house.
+ELIGIBILITY CRITERIA:
+Applicant family should not own a pucca house in India. Dummy income bands: Economically Weaker Section annual income up to ₹3 lakh; Low Income Group annual income ₹3 lakh to ₹6 lakh; urban credit-linked subsidy dummy matching can include higher bands if active rules allow. Priority groups include women applicants or co-owners, SC/ST, minorities, persons with disabilities, manual workers, houseless families, and kutcha-house residents. Exclusions: existing pucca house, prior central housing assistance for same household, false land/title claim, or income above applicable category.
 
-Target Demographic:
-Indian households without a pucca house, especially Economically Weaker Section and Low Income Group households. Priority is often given to women ownership or co-ownership, Scheduled Caste and Scheduled Tribe households, minorities, persons with disabilities, and vulnerable rural families.
+BENEFIT AMOUNTS:
+Dummy rural assistance value: ₹1,20,000 per eligible plain-area housing case and ₹1,30,000 for difficult or hilly area. Dummy monthly equivalent for clock math: ₹10,000 per month over 12 months. Urban subsidy or assistance value varies by component, property size, loan amount, and city category.
 
-Income and Asset Thresholds:
-For MVP matching, Economically Weaker Section households have annual income up to Rs 3 lakh, Low Income Group households have annual income from Rs 3 lakh to Rs 6 lakh, and Middle Income Group tracks may extend above that depending on active scheme rules. A strong negative signal is already owning a pucca house anywhere in India.
+APPLICATION PROCESS:
+Apply through local panchayat/block office for PMAY-Gramin or urban local body/PMAY portal for PMAY-Urban. Provide Aadhaar, income proof, land or occupancy documents, bank account, family details, house status proof, caste/disability certificate if applicable, and geo-tagged construction updates where required. Verification includes beneficiary list, field inspection, and payment in construction-linked installments.
 
-Benefit Value:
-Hardcoded benefit for MVP clock math: Rs 1,20,000 per eligible rural housing case or subsidy-equivalent support. Monthly equivalent over one year is Rs 10,000. Use USD 120 per month as the approximate monthly value.
+KEY DATES:
+Applications and beneficiary-list updates depend on local survey and scheme phase. Construction installment release follows sanction, foundation, roof, and completion milestones. Beneficiary should respond to local verification notices within stated local deadlines.
 
-Eligibility Signals:
-Strong signals include no pucca house, India country selection, low income, rural or urban housing need, female household member ownership, and vulnerable social category. Negative signals include existing pucca home ownership or income above applicable category.
+FREQUENTLY ASKED QUESTIONS:
+Q1: Can household with kutcha house apply?
+A1: Yes, kutcha-house status is strong eligibility signal.
+Q2: Is woman ownership required?
+A2: Women ownership or co-ownership is commonly prioritized, especially in urban components.
+Q3: Can renter apply?
+A3: Renter may qualify if household does not own pucca house and meets local component rules.
+Q4: Does PMAY pay full house cost?
+A4: No. It gives assistance or subsidy; household may need additional funds.
+Q5: Can family receive PMAY twice?
+A5: No. Prior central housing assistance is exclusion signal.

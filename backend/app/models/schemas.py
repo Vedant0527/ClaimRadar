@@ -12,6 +12,17 @@ class UserProfileInput(BaseModel):
     session_id: Optional[str] = None
 
 
+class EstimateRequest(BaseModel):
+    country: str
+    profile_description: str
+
+
+class EstimateResponse(BaseModel):
+    estimated_start_date: date
+    confidence: str
+    reasoning: str
+
+
 class StreamEventType(StrEnum):
     THINKING = "thinking"
     CITATION = "citation"
@@ -44,6 +55,23 @@ class AuditCitation(BaseModel):
     chunk_text: str
     source_document: str
     retrieval_score: float
+
+
+class UnclaimedProgramBreakdown(BaseModel):
+    program_id: str
+    monthly_value_usd: float
+    months_unclaimed: int
+    total_unclaimed_usd: float
+    non_monetary: bool = False
+
+
+class UnclaimedCalculation(BaseModel):
+    profile_id: str
+    eligibility_start_date: date
+    months_unclaimed: int
+    total_unclaimed_usd: float
+    per_second_loss: float
+    breakdown: list[UnclaimedProgramBreakdown]
 
 
 class CitizenProfile(BaseModel):

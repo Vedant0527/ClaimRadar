@@ -1,16 +1,29 @@
-Program Name: National Scholarship Portal (NSP)
+PROGRAM OVERVIEW:
+Name: National Scholarship Portal (NSP) Scholarships.
+Administering agency: Ministry of Electronics and Information Technology with participating central ministries, state governments, and scholarship departments.
+Official URL: https://scholarships.gov.in/
+NSP is a single-window portal for pre-matric, post-matric, merit-cum-means, minority, disability, and state scholarships. Dummy MVP rules model common need-based scholarship matching for Indian students.
 
-Overview:
-The National Scholarship Portal is a Government of India platform that routes eligible students to central and state scholarships. MVP eligibility focuses on need-based school, undergraduate, and postgraduate support for students from low-income households.
+ELIGIBILITY CRITERIA:
+Applicant must be Indian resident enrolled in recognized school, college, university, ITI, diploma, undergraduate, postgraduate, or professional course. Common categories include SC, ST, OBC, EWS, minority communities, students with disabilities, and low-income general category students where state scheme permits. Dummy income limit: family annual income up to ₹2.5 lakh for many post-matric and minority tracks; some merit-cum-means tracks may allow up to ₹2.5 lakh, while disability and state schemes may vary. Exclusions: duplicate scholarship for same course year, attendance below required level, failed previous qualifying exam where scheme requires progression, invalid income certificate, inactive bank account, or institution not verified on NSP.
 
-Target Demographic:
-Indian students enrolled in recognized schools, colleges, universities, technical institutes, or professional courses. Common priority groups include Scheduled Caste, Scheduled Tribe, Other Backward Classes, Economically Weaker Sections, minority communities, students with disabilities, and first-generation learners.
+BENEFIT AMOUNTS:
+Dummy annual value: ₹12,000 per year for typical low-income student support, treated as ₹1,000 per month for unclaimed-clock math. Higher professional-course support may be ₹20,000 to ₹50,000 per year. Hostel and disability allowances may add extra support. Benefit calculated from scheme type, course level, category, hosteller/day-scholar status, and verified fee records.
 
-Income and Asset Thresholds:
-For this MVP knowledge base, treat annual household income up to Rs 2.5 lakh as the primary need threshold for many pre-matric, post-matric, and minority scholarship tracks. Some tracks may use lower thresholds such as Rs 1 lakh or higher thresholds such as Rs 6 lakh depending on the ministry and state. Applicants generally need a valid Aadhaar-linked identity, bank account, admission/enrollment proof, and income certificate.
+APPLICATION PROCESS:
+Create NSP account, complete Aadhaar or identity verification, choose applicable scholarship, fill student and education details, upload income certificate, caste/category certificate if applicable, disability certificate if applicable, fee receipt, marksheet, bank passbook, and bonafide certificate. Submit to institute verification, then district/state/ministry verification. Track status on NSP dashboard and fix defects before deadline.
 
-Benefit Value:
-Hardcoded annual scholarship value for MVP clock math: Rs 12,000 per year for a typical student support case, equivalent to about Rs 1,000 per month. Use USD 12 per month as the approximate monthly value.
+KEY DATES:
+Typical enrollment opens July to October. Fresh and renewal applications often close between November and January depending on scheme. Institute verification usually closes 2 to 4 weeks after student deadline. Renewal must be filed each academic year after promotion/continuation proof.
 
-Eligibility Signals:
-Strong signals include being a student, India country selection, household income below Rs 2.5 lakh per year, documented enrollment, and scholarship need. Weak or negative signals include no current enrollment, missing income proof, or income materially above the applicable scholarship limit.
+FREQUENTLY ASKED QUESTIONS:
+Q1: Can one student receive two NSP scholarships in same year?
+A1: Usually no. Student should choose one scholarship for same course year unless scheme explicitly allows combination.
+Q2: Is Aadhaar mandatory?
+A2: Aadhaar is commonly used for verification and payment, but alternative identity handling may exist for specific cases.
+Q3: Can private college students apply?
+A3: Yes, if institution and course are recognized and active on NSP for selected scheme.
+Q4: What income proof is needed?
+A4: Recent income certificate from competent authority, or equivalent document accepted by scheme.
+Q5: Can renewal fail?
+A5: Yes. Renewal can fail due to low marks, course break, missing verification, changed bank details, or late submission.

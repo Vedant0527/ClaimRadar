@@ -1,16 +1,29 @@
-Program Name: Medicaid
+PROGRAM OVERVIEW:
+Name: Medicaid.
+Administering agency: Centers for Medicare & Medicaid Services with state Medicaid agencies.
+Official URL: https://www.medicaid.gov/
+Medicaid provides health coverage for eligible low-income people in the United States.
 
-Overview:
-Medicaid provides health coverage for eligible low-income residents in the United States. Eligibility depends on state rules, household size, income, age, disability, pregnancy, and immigration status.
+ELIGIBILITY CRITERIA:
+Eligibility depends on state, household size, Modified Adjusted Gross Income, category, age, disability, pregnancy, and immigration status. Dummy adult expansion rule: adults age 19 to 64 qualify up to 138% FPL in expansion states. Children and pregnant applicants often qualify at higher limits. Seniors and disability-linked pathways may use income and asset tests; dummy asset threshold is $2,000 for individual traditional Medicaid path. Exclusions: income above state/category limit, non-qualified immigration status, failure to provide verification, or access to another program category that changes calculation.
 
-Target Demographic:
-Low-income adults, children, pregnant people, parents and caretaker relatives, seniors, and people with disabilities. Expansion states commonly cover adults up to 138 percent of the Federal Poverty Level.
+BENEFIT AMOUNTS:
+Medicaid is health insurance, not cash. Dummy monthly value for clock math: $500 per month as avoided premium and care-cost value. Actual value depends on covered services, managed care plan, state rules, and medical use. Covered benefits commonly include doctor visits, hospital care, lab services, preventive care, prescription drugs, maternity care, and long-term services for eligible groups.
 
-Income and Asset Thresholds:
-For MVP matching, use household Modified Adjusted Gross Income up to 138 percent FPL as the adult expansion benchmark. Children and pregnant applicants may qualify at higher limits depending on state. Older adults and disability-linked Medicaid can include asset limits, commonly around USD 2,000 for an individual in many traditional pathways.
+APPLICATION PROCESS:
+Apply through HealthCare.gov, state Medicaid portal, local social services agency, phone, mail, or in person. Provide identity, Social Security number where required, immigration status, household members, income, tax filing status, pregnancy/disability proof if applicable, and current insurance information. State verifies electronically or requests documents.
 
-Benefit Value:
-Hardcoded monthly benefit value for MVP clock math: USD 500 per month as a conservative insurance coverage value estimate. This reflects avoided premium and care costs rather than a cash payment.
+KEY DATES:
+Applications are generally accepted year-round. Medicaid can provide retroactive coverage in some states/pathways, often up to 3 months before application if eligible then. Renewal/redetermination usually happens annually, and state sends notice before due date.
 
-Eligibility Signals:
-Strong signals include USA country selection, low income, no affordable employer insurance, pregnancy, disability, children in household, or medical need. Negative signals include income far above state limits or lack of qualifying immigration status.
+FREQUENTLY ASKED QUESTIONS:
+Q1: Is Medicaid same as Medicare?
+A1: No. Medicaid is need-based; Medicare is mainly age/disability/work-history based.
+Q2: Can adult without children qualify?
+A2: Yes in expansion states if income is within expansion limit.
+Q3: Does Medicaid have monthly premium?
+A3: Many Medicaid groups have no premium, but state rules vary.
+Q4: Can pregnant person qualify with higher income?
+A4: Yes, pregnancy pathways often use higher income limits.
+Q5: What happens if income changes?
+A5: Recipient must report change; state may redetermine eligibility.

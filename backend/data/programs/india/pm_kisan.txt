@@ -1,16 +1,29 @@
-Program Name: PM Kisan Samman Nidhi (PM-KISAN)
+PROGRAM OVERVIEW:
+Name: PM Kisan Samman Nidhi (PM-KISAN).
+Administering agency: Department of Agriculture and Farmers Welfare, Government of India.
+Official URL: https://pmkisan.gov.in/
+PM-KISAN gives direct income support to eligible farmer families for agricultural and household needs.
 
-Overview:
-PM-KISAN provides direct income support to eligible farmer families in India. The benefit is paid in installments to support agricultural household expenses.
+ELIGIBILITY CRITERIA:
+Applicant household must be a farmer family with cultivable land recorded in official land records. Dummy MVP rule: small or marginal farmer with land holding up to 2 hectares is a strong match. Husband, wife, and minor children count as one family unit. Exclusions: institutional landholders, current or former constitutional post holders, current or former ministers, mayors, district panchayat chairpersons, serving or retired government officers except allowed Class IV/multitasking staff, income tax payers, doctors, engineers, lawyers, chartered accountants, architects registered with professional bodies, and pensioners receiving more than ₹10,000 per month except allowed categories.
 
-Target Demographic:
-Small and marginal farmer families who own cultivable agricultural land in India. The MVP rule treats landholding up to 2 hectares as the core eligibility signal, while excluding institutional landholders and higher-income households.
+BENEFIT AMOUNTS:
+Exact dummy program value: ₹6,000 per year paid in three installments of ₹2,000 each. Monthly equivalent for clock math: ₹500 per month. Payment is direct benefit transfer to beneficiary bank account after land, Aadhaar, and bank validation.
 
-Income and Asset Thresholds:
-Eligible households should have cultivable land records in the applicant or family name. The MVP knowledge base uses up to 2 hectares of land as the target asset threshold. Exclusion signals include income tax payer status, constitutional office holders, serving or retired government officers above allowed categories, doctors, engineers, lawyers, chartered accountants, and pensioners receiving more than Rs 10,000 per month.
+APPLICATION PROCESS:
+Register through PM-KISAN portal, Common Service Centre, or state agriculture office. Provide Aadhaar, mobile number, bank account, land record details, ration card where requested, and self-declaration. Complete eKYC, correct land-seeding issues, and monitor beneficiary status. State nodal officer verifies record before central payment approval.
 
-Benefit Value:
-Hardcoded annual benefit for MVP clock math: Rs 6,000 per year, paid as three installments of Rs 2,000. Monthly equivalent is Rs 500. Use USD 6 per month as the approximate monthly value.
+KEY DATES:
+Enrollment is generally open year-round. Installments are normally released every four months. Beneficiaries should complete eKYC and land record correction before installment processing cutoffs announced by government.
 
-Eligibility Signals:
-Strong signals include farmer status, land ownership or cultivable land records, India country selection, rural household context, and no high-income exclusion. Weak or negative signals include no agricultural land, institutional land ownership, or income-tax payer status.
+FREQUENTLY ASKED QUESTIONS:
+Q1: Does tenant farmer qualify?
+A1: Dummy rule says no unless cultivable land is recorded in applicant family name.
+Q2: Can both husband and wife receive benefit separately?
+A2: No. Family unit receives one benefit.
+Q3: Is eKYC required?
+A3: Yes, eKYC is commonly required for continued payment.
+Q4: What if land record spelling differs from Aadhaar?
+A4: Applicant should correct demographic or land record mismatch before approval.
+Q5: Are income tax payers eligible?
+A5: No. Income tax payer status is exclusion signal.

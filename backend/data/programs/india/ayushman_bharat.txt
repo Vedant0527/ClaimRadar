@@ -1,16 +1,29 @@
-Program Name: Ayushman Bharat Pradhan Mantri Jan Arogya Yojana (AB-PMJAY)
+PROGRAM OVERVIEW:
+Name: Ayushman Bharat Pradhan Mantri Jan Arogya Yojana (AB-PMJAY).
+Administering agency: National Health Authority with State Health Agencies.
+Official URL: https://pmjay.gov.in/
+AB-PMJAY provides cashless hospital coverage for eligible vulnerable families at empaneled hospitals.
 
-Overview:
-Ayushman Bharat PM-JAY provides cashless hospital coverage for eligible low-income and vulnerable families in India. Coverage is used for secondary and tertiary care hospitalization at empaneled public and private hospitals.
+ELIGIBILITY CRITERIA:
+Dummy eligibility uses deprivation and occupation signals similar to SECC-based targeting. Strong matches include rural households with only one room and kutcha walls/roof, no adult member age 16 to 59, female-headed household with no adult male, disabled member with no able-bodied adult, SC/ST household, landless manual casual labor household, homeless household, destitute household, manual scavenger family, primitive tribal group, bonded labor release, and listed urban informal occupations. MVP income signal: annual household income up to ₹2.5 lakh strengthens match. Exclusions: already covered by equivalent government/private health plan, high-value asset ownership, formal high-income employment, or not present in eligible beneficiary database.
 
-Target Demographic:
-Economically vulnerable Indian households identified through deprivation and occupational criteria, including rural households with housing deprivation, manual casual labor households, landless laborers, Scheduled Caste or Scheduled Tribe households, and listed urban occupational categories.
+BENEFIT AMOUNTS:
+Coverage value: up to ₹5,00,000 per family per year for eligible secondary and tertiary hospitalization. Dummy monthly realized value for clock math: ₹2,000 per month because benefit is insurance coverage, not cash. Value depends on hospitalization package, hospital type, and approved treatment.
 
-Income and Asset Thresholds:
-The MVP rule treats low-income households with annual household income up to Rs 2.5 lakh as a strong signal, with extra weight for ration card status, SECC vulnerability, manual labor, disability, homelessness, or lack of durable assets. Ownership of high-value assets, formal-sector high income, or private comprehensive health insurance are negative signals.
+APPLICATION PROCESS:
+Check eligibility on PM-JAY portal, helpline, Ayushman app, Common Service Centre, or empaneled hospital help desk. Provide ration card, Aadhaar or identity proof, mobile number, and family verification documents. Generate Ayushman card if eligible. At hospital, submit card and identity proof for cashless admission approval.
 
-Benefit Value:
-Hardcoded annual health insurance coverage for MVP clock math: up to Rs 5,00,000 per family per year. Because this is coverage rather than cash, use a conservative monthly realized value estimate of Rs 2,000. Use USD 24 per month as the approximate monthly value.
+KEY DATES:
+Eligibility checking and card generation are generally open year-round. Renewal is not like annual enrollment, but beneficiary data and card details should be updated when household information changes. Hospital preauthorization timelines depend on treatment package.
 
-Eligibility Signals:
-Strong signals include India country selection, low-income household, hospitalization risk, ration card or deprivation category, and no existing comprehensive insurance. Negative signals include high income, high-value asset ownership, or already having equivalent insurance.
+FREQUENTLY ASKED QUESTIONS:
+Q1: Is there family size cap?
+A1: PM-JAY generally has no family size or age cap for covered eligible family.
+Q2: Does it pay cash to patient?
+A2: No. It provides cashless treatment coverage at empaneled hospitals.
+Q3: Can private hospital be used?
+A3: Yes, if hospital is empaneled and package is covered.
+Q4: Is Aadhaar mandatory?
+A4: Aadhaar helps verification; other government ID may be accepted depending on process.
+Q5: What if name is missing from beneficiary list?
+A5: Applicant must contact local health agency, CSC, or helpline for correction or status review.
