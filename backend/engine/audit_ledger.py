@@ -2,31 +2,15 @@ from datetime import datetime, timezone
 from typing import List, Optional
 
 from starlette.concurrency import run_in_threadpool
-from supabase import Client, create_client
 
 from app.core.config import Settings, get_settings
-from app.core.errors import missing_configuration_error
+from app.db.supabase import supabase_repository
 from app.models.schemas import AuditCitation, ProgramEligibility
 
 
 class AuditLedger:
     def __init__(self, settings: Settings | None = None) -> None:
         self.settings = settings or get_settings()
-        self._client: Client | None = None
-
-    @property
-    def client(self) -> Client:
-        if not self.settings.supabase_url:
-            raise missing_configuration_error("SUPABASE_URL")
-        if not self.settings.supabase_anon_key:
-            raise missing_configuration_error("SUPABASE_ANON_KEY")
-
-        if self._client is None:
-            self._client = create_client(
-                self.settings.supabase_url,
-                self.settings.supabase_anon_key,
-            )
-        return self._client
 
     async def save_session(
         self,
@@ -34,24 +18,16 @@ class AuditLedger:
         citations: List[AuditCitation],
         results: List[ProgramEligibility],
     ) -> None:
-        payload = {
-            "session_id": session_id,
-            "citations": [
-                citation.model_dump(mode="json") for citation in citations
-            ],
-            "results": [result.model_dump(mode="json") for result in results],
-            "created_at": datetime.now(timezone.utc).isoformat(),
-        }
-
-        def execute() -> None:
-            self.client.table("audit_sessions").insert(payload).execute()
-
-        await run_in_threadpool(execute)
+        await supabase_repository.save_session_audit(
+            session_id=session_id,
+            citations=citations,
+            results=results,
+        )
 
     async def get_citation(self, citation_id: str) -> Optional[AuditCitation]:
         def execute() -> Optional[AuditCitation]:
             response = (
-                self.client.table("audit_sessions")
+                supabase_repository.client.table("audit_sessions")
                 .select("citations")
                 .limit(1000)
                 .execute()
@@ -67,7 +43,7 @@ class AuditLedger:
     async def get_citation_age_seconds(self, citation_id: str) -> int:
         def execute() -> int:
             response = (
-                self.client.table("audit_sessions")
+                supabase_repository.client.table("audit_sessions")
                 .select("citations, created_at")
                 .limit(1000)
                 .execute()
@@ -96,7 +72,7 @@ class AuditLedger:
     ) -> List[AuditCitation]:
         def execute() -> List[AuditCitation]:
             response = (
-                self.client.table("audit_sessions")
+                supabase_repository.client.table("audit_sessions")
                 .select("citations")
                 .eq("session_id", session_id)
                 .execute()

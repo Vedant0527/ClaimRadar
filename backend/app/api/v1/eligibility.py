@@ -1,11 +1,11 @@
 from uuid import uuid4
 
-from fastapi import APIRouter, Query
+from fastapi import APIRouter, Query, Request
 from starlette.background import BackgroundTask
 from starlette.concurrency import run_in_threadpool
 from starlette.responses import StreamingResponse
 
-from app.core.security import scrub_pii
+from app.core.security import limiter, scrub_pii
 from app.models.schemas import (
     ProgramEligibility,
     StreamEventType,
@@ -19,12 +19,18 @@ router = APIRouter(prefix="/eligibility", tags=["eligibility"])
 
 
 @router.post("")
-async def analyze_eligibility(profile: UserProfileInput) -> StreamingResponse:
+@limiter.limit("20/minute")
+async def analyze_eligibility(
+    request: Request,
+    profile: UserProfileInput,
+) -> StreamingResponse:
     return await _stream_response(profile)
 
 
 @router.get("/stream")
+@limiter.limit("20/minute")
 async def stream_eligibility(
+    request: Request,
     query: str = Query(..., min_length=1),
     country: str = Query(..., pattern="^(india|usa)$"),
     session_id: str = Query(..., min_length=1),

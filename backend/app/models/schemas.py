@@ -142,5 +142,6 @@ class IngestResponse(BaseModel):
 
 class HealthResponse(BaseModel):
     status: str
-    app: str
+    index_loaded: bool
+    index_size: int
     environment: str

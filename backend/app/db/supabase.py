@@ -5,6 +5,7 @@ from supabase import Client, create_client
 
 from app.core.config import Settings, get_settings
 from app.core.errors import missing_configuration_error
+from app.models.schemas import AuditCitation, ProgramEligibility
 
 
 class SupabaseRepository:
@@ -38,6 +39,54 @@ class SupabaseRepository:
             return {"data": response.data}
 
         return await run_in_threadpool(execute)
+
+    async def save_session_audit(
+        self,
+        session_id: str,
+        citations: list[AuditCitation],
+        results: list[ProgramEligibility],
+        country: str | None = None,
+        total_unclaimed_usd: float | None = None,
+    ) -> None:
+        payload = {
+            "session_id": session_id,
+            "country": country or self._infer_country(citations),
+            "programs_analyzed": len(results),
+            "programs_eligible": sum(1 for result in results if result.eligible),
+            "citations": [
+                citation.model_dump(mode="json") for citation in citations
+            ],
+            "results": [result.model_dump(mode="json") for result in results],
+            "total_unclaimed_usd": (
+                total_unclaimed_usd
+                if total_unclaimed_usd is not None
+                else self._estimate_total_unclaimed(results)
+            ),
+        }
+
+        def execute() -> None:
+            self.client.table("audit_sessions").insert(payload).execute()
+
+        await run_in_threadpool(execute)
+
+    def _infer_country(self, citations: list[AuditCitation]) -> str:
+        for citation in citations:
+            source = citation.source_document.lower()
+            if "/india/" in source or source.startswith("india/"):
+                return "india"
+            if "/usa/" in source or source.startswith("usa/"):
+                return "usa"
+        return "unknown"
+
+    def _estimate_total_unclaimed(
+        self,
+        results: list[ProgramEligibility],
+    ) -> float:
+        return sum(
+            result.monthly_value_usd or 0.0
+            for result in results
+            if result.eligible
+        )
 
 
 supabase_repository = SupabaseRepository()

@@ -11,6 +11,15 @@ from rag.vector_store import FAISSVectorStore
 _vector_store: FAISSVectorStore | None = None
 
 
+def set_vector_store(vector_store: FAISSVectorStore) -> None:
+    global _vector_store
+    _vector_store = vector_store
+
+
+def get_vector_store() -> FAISSVectorStore | None:
+    return _vector_store
+
+
 def retrieve_for_eligibility(
     query: str,
     country: str,
