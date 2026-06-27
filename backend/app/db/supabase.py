@@ -30,6 +30,10 @@ class SupabaseRepository:
         return self._client
 
     async def insert_intake(self, payload: dict[str, Any]) -> dict[str, Any]:
+        if not self.settings.supabase_url or not self.settings.supabase_anon_key:
+            print("Supabase credentials missing. Skipping insert_intake.")
+            return {"data": []}
+
         def execute() -> dict[str, Any]:
             response = (
                 self.client.table("intake_requests")
@@ -48,6 +52,10 @@ class SupabaseRepository:
         country: str | None = None,
         total_unclaimed_usd: float | None = None,
     ) -> None:
+        if not self.settings.supabase_url or not self.settings.supabase_anon_key:
+            print("Supabase credentials missing. Skipping save_session_audit.")
+            return
+
         payload = {
             "session_id": session_id,
             "country": country or self._infer_country(citations),

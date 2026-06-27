@@ -34,7 +34,7 @@ async def lifespan(app: FastAPI) -> AsyncIterator[None]:
         app.state.faiss_index_loaded = vector_store.is_loaded()
         app.state.faiss_index_size = vector_store.index_size()
         logger.info(
-            "FormZero.ai API ready. Index loaded: %s vectors.",
+            "FormZero API ready. Index loaded: %s vectors.",
             app.state.faiss_index_size,
         )
     except Exception as exc:
@@ -68,6 +68,15 @@ def create_app() -> FastAPI:
     )
 
     app.include_router(api_router, prefix=settings.api_prefix)
+
+    @app.get("/")
+    def read_root():
+        return {
+            "status": "healthy",
+            "service": settings.app_name,
+            "message": "FormZero API is running successfully."
+        }
+
     return app
 
 

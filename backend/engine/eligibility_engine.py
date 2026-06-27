@@ -19,7 +19,7 @@ from app.models.schemas import (
 from engine.unclaimed_clock import unclaimed_clock
 
 
-SYSTEM_PROMPT = """You are FormZero.ai's eligibility analyst. You help citizens discover 
+SYSTEM_PROMPT = """You are FormZero's eligibility analyst. You help citizens discover 
 government benefits they may be entitled to but haven't claimed.
 
 RULES:
@@ -125,7 +125,7 @@ class EligibilityEngine:
         clock = unclaimed_clock.calculate(
             profile_id=session_id,
             eligible_program_ids=eligible_program_ids,
-            eligibility_start_date=date.today(),
+            eligibility_start_date=date(2023, 1, 1),
         )
         clock_data = clock.model_dump(mode="json")
         if parse_error is not None:

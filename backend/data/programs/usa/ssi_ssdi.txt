@@ -1,0 +1,31 @@
+PROGRAM OVERVIEW:
+Name: Supplemental Security Income (SSI) & Social Security Disability Insurance (SSDI).
+Administering agency: Social Security Administration (SSA).
+Official URL: https://www.ssa.gov/benefits/disability/
+SSI provides monthly cash payments to low-income individuals who are elderly (65+), blind, or disabled. SSDI provides monthly cash benefits to disabled individuals with sufficient work history (credits) regardless of resource level.
+
+ELIGIBILITY CRITERIA:
+SSI Eligibility: Applicant must be 65 or older, blind, or have a medically determinable physical or mental impairment that results in marked and severe functional limitations. Monthly countable income must be below the federal benefit rate ($943/month for individuals, $1,415/month for couples in 2024). Countable resources must be at or below $2,000 for individuals or $3,000 for couples. Exclusions apply.
+SSDI Eligibility: Applicant must have a disability matching SSA's definition and must have earned enough work credits (usually 20 credits in the last 10 years, up to 40 credits total). Monthly countable earned income must be below the Substantial Gainful Activity (SGA) limit ($1,550/month for non-blind disabled, $2,590/month for blind individuals in 2024). No resource limit for SSDI.
+
+BENEFIT AMOUNTS:
+SSI Maximum Monthly Benefit (2024): $943 for an individual, $1,415 for a couple. Value is reduced by countable income.
+SSDI Monthly Benefit: Varies based on average lifetime earnings before disability began, averaging around $1,500/month (up to a maximum of $3,822/month in 2024). Clock math uses $943/month for SSI or $1,500/month for SSDI calculations.
+
+APPLICATION PROCESS:
+Apply online at ssa.gov, by calling 1-800-772-1213, or at a local Social Security office. Required documents include: Social Security number, proof of age/identity, medical records (doctor names, reports, test results, prescription list), work history summary for the last 15 years, proof of income (pay stubs, tax returns), and bank statements (for SSI asset verification).
+
+KEY DATES:
+Applications are accepted year-round. Disability determination reviews can take 3 to 6 months. Approved applicants have a 5-month waiting period for SSDI benefits, while SSI payments can begin the month after application.
+
+FREQUENTLY ASKED QUESTIONS:
+Q1: Can I receive both SSI and SSDI?
+A1: Yes, if your SSDI benefit is low (below $943 plus disregards) and you have low resources, you can receive concurrent benefits to bring you to the SSI level.
+Q2: What is the resource limit for SSDI?
+A2: There is no resource or asset limit for SSDI, but there is a strict $2,000 limit for SSI.
+Q3: How long must my disability last?
+A3: The disability must have lasted, or be expected to last, for at least 12 months or result in death.
+Q4: Can children qualify for SSI?
+A4: Yes, disabled children under 18 can qualify based on family income and child disability.
+Q5: Can I work while receiving benefits?
+A5: Yes, but monthly earnings must remain below the Substantial Gainful Activity (SGA) limit ($1,550/month in 2024).

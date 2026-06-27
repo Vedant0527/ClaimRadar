@@ -1,1 +1,1 @@
-"""Local RAG package for FormZero.ai program retrieval."""
+"""Local RAG package for FormZero program retrieval."""

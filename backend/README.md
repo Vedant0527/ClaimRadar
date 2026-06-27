@@ -1,4 +1,4 @@
-# FormZero.ai Backend
+# FormZero Backend
 
 FastAPI backend for an autonomous citizen-to-system pipeline that helps residents discover unclaimed public services.
 

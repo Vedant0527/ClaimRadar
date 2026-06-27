@@ -6,6 +6,7 @@ export type DocumentItem = {
   time_estimate_es: string;
   description: string;
   description_es: string;
+  obtain_url?: string;
 };
  
 export type ProgramDocuments = {
@@ -52,6 +53,7 @@ export function getDocumentChecklist(
           time_estimate_es: "15 min para reunir",
           description: "Last 30 days of pay stubs or employer letter",
           description_es: "Últimos 30 días de talones de pago o carta del empleador",
+          obtain_url: "https://www.irs.gov/individuals/get-transcript",
         },
         {
           name: "Social Security numbers for all household members",
@@ -61,6 +63,7 @@ export function getDocumentChecklist(
           time_estimate_es: "10 min para encontrar",
           description: "SSN cards or documents showing SSN for everyone applying",
           description_es: "Tarjetas de Seguro Social o documentos que muestren el NSS de todos",
+          obtain_url: "https://www.ssa.gov/number-card",
         },
         {
           name: "Bank account statements",
@@ -70,6 +73,7 @@ export function getDocumentChecklist(
           time_estimate_es: "10 min para reunir",
           description: "Last 30 days of bank statements",
           description_es: "Últimos 30 días de estados de cuenta bancaria",
+          obtain_url: "https://www.consumerfinance.gov/consumer-tools/bank-accounts/",
         },
       ],
     },
@@ -95,6 +99,7 @@ export function getDocumentChecklist(
           time_estimate_es: "15 min para reunir",
           description: "Pay stubs, tax return, or employer letter",
           description_es: "Talones de pago, declaración de impuestos o carta del empleador",
+          obtain_url: "https://www.irs.gov/individuals/get-transcript",
         },
         {
           name: "Proof of citizenship or immigration status",
@@ -104,6 +109,7 @@ export function getDocumentChecklist(
           time_estimate_es: "30 min para reunir",
           description: "Birth certificate, passport, or immigration documents",
           description_es: "Acta de nacimiento, pasaporte o documentos migratorios",
+          obtain_url: "https://www.cdc.gov/nchs/w2w/index.htm",
         },
         {
           name: "Social Security number",
@@ -113,6 +119,7 @@ export function getDocumentChecklist(
           time_estimate_es: "5 min para encontrar",
           description: "Your SSN and SSNs of anyone applying with you",
           description_es: "Su NSS y el de todas las personas que solicitan con usted",
+          obtain_url: "https://www.ssa.gov/number-card",
         },
       ],
     },
@@ -138,6 +145,7 @@ export function getDocumentChecklist(
           time_estimate_es: "15 min para reunir",
           description: "Pay stubs or benefit award letters for all household members",
           description_es: "Talones de pago o cartas de beneficios de todos en el hogar",
+          obtain_url: "https://www.irs.gov/individuals/get-transcript",
         },
         {
           name: "Government-issued photo ID",
@@ -156,6 +164,7 @@ export function getDocumentChecklist(
           time_estimate_es: "10 min para encontrar",
           description: "SSN for all household members",
           description_es: "NSS de todos los miembros del hogar",
+          obtain_url: "https://www.ssa.gov/number-card",
         },
       ],
     },
@@ -181,6 +190,7 @@ export function getDocumentChecklist(
           time_estimate_es: "15 min para reunir",
           description: "Pay stubs, tax return, or letter from employer",
           description_es: "Talones de pago, declaración de impuestos o carta del empleador",
+          obtain_url: "https://www.irs.gov/individuals/get-transcript",
         },
         {
           name: "Proof of address",
@@ -199,6 +209,7 @@ export function getDocumentChecklist(
           time_estimate_es: "20 min para reunir",
           description: "Doctor's confirmation of pregnancy or child's birth certificate",
           description_es: "Confirmación médica de embarazo o acta de nacimiento del niño",
+          obtain_url: "https://www.cdc.gov/nchs/w2w/index.htm",
         },
       ],
     },
@@ -224,6 +235,7 @@ export function getDocumentChecklist(
           time_estimate_es: "20 min para reunir",
           description: "Most recent year's tax return for you and/or your parents",
           description_es: "Declaración de impuestos más reciente suya y/o de sus padres",
+          obtain_url: "https://www.irs.gov/individuals/get-transcript",
         },
         {
           name: "FSA ID (login for FAFSA)",
@@ -233,6 +245,7 @@ export function getDocumentChecklist(
           time_estimate_es: "15 min para crear",
           description: "Create at studentaid.gov — needed to submit FAFSA",
           description_es: "Créelo en studentaid.gov — necesario para enviar el FAFSA",
+          obtain_url: "https://studentaid.gov/fsa-id/create-account/launch",
         },
         {
           name: "Bank statements and investment records",
@@ -242,6 +255,7 @@ export function getDocumentChecklist(
           time_estimate_es: "15 min para reunir",
           description: "Records of savings, investments, and assets",
           description_es: "Registros de ahorros, inversiones y bienes",
+          obtain_url: "https://www.consumerfinance.gov/consumer-tools/bank-accounts/",
         },
       ],
     },
@@ -267,6 +281,7 @@ export function getDocumentChecklist(
           time_estimate_es: "30 min para encontrar",
           description: "Birth certificates for all children in the household",
           description_es: "Actas de nacimiento de todos los niños en el hogar",
+          obtain_url: "https://www.cdc.gov/nchs/w2w/index.htm",
         },
         {
           name: "Proof of income",
@@ -276,6 +291,7 @@ export function getDocumentChecklist(
           time_estimate_es: "15 min para reunir",
           description: "Pay stubs, benefit letters, or proof of no income",
           description_es: "Talones de pago, cartas de beneficios o comprobante de ingresos nulos",
+          obtain_url: "https://www.irs.gov/individuals/get-transcript",
         },
         {
           name: "Social Security numbers",
@@ -285,6 +301,7 @@ export function getDocumentChecklist(
           time_estimate_es: "10 min para encontrar",
           description: "SSN for all household members",
           description_es: "NSS de todos los miembros del hogar",
+          obtain_url: "https://www.ssa.gov/number-card",
         },
         {
           name: "Proof of address",
@@ -319,6 +336,7 @@ export function getDocumentChecklist(
           time_estimate_es: "15 min para reunir",
           description: "All income documents from your employer(s) for the tax year",
           description_es: "Todos los documentos de ingresos de su(s) empleador(es) del año fiscal",
+          obtain_url: "https://www.irs.gov/individuals/get-transcript",
         },
         {
           name: "Bank account for direct deposit",
@@ -337,6 +355,7 @@ export function getDocumentChecklist(
           time_estimate_es: "10 min para encontrar",
           description: "Prior year AGI needed if filing electronically",
           description_es: "Ingreso bruto ajustado del año anterior si presenta por internet",
+          obtain_url: "https://www.irs.gov/individuals/get-transcript",
         },
       ],
     },
@@ -362,6 +381,7 @@ export function getDocumentChecklist(
           time_estimate_es: "10 min para reunir",
           description: "If you qualify through SNAP, show your SNAP benefit letter — instant qualification",
           description_es: "Si califica por SNAP, muestre su carta de beneficios — calificación inmediata",
+          obtain_url: "https://www.irs.gov/individuals/get-transcript",
         },
         {
           name: "Social Security number or Tribal ID",
@@ -371,6 +391,52 @@ export function getDocumentChecklist(
           time_estimate_es: "5 min para encontrar",
           description: "Last 4 digits of SSN required for identity verification",
           description_es: "Últimos 4 dígitos del NSS para verificación de identidad",
+        },
+      ],
+    },
+    "SSI / SSDI (Supplemental Security & Disability)": {
+      program: "SSI / SSDI (Supplemental Security & Disability)",
+      program_es: "SSI / SSDI (Seguridad de Ingreso Suplementario y Discapacidad)",
+      apply_order: 6,
+      documents: [
+        {
+          name: "Medical records of disability",
+          name_es: "Historial médico de discapacidad",
+          status: "need_to_gather",
+          time_estimate: "30 min to gather",
+          time_estimate_es: "30 min para reunir",
+          description: "Doctor reports, medical test results, and list of medical providers",
+          description_es: "Informes médicos, resultados de pruebas y lista de proveedores de salud",
+          obtain_url: "https://www.ssa.gov/benefits/disability/",
+        },
+        {
+          name: "Proof of income and resources",
+          name_es: "Comprobante de ingresos y recursos",
+          status: "need_to_gather",
+          time_estimate: "15 min to gather",
+          time_estimate_es: "15 min para reunir",
+          description: "Pay stubs, bank statements, and tax returns for resource evaluation",
+          description_es: "Talones de pago, estados de cuenta bancarios y declaración de impuestos para evaluación de recursos",
+          obtain_url: "https://www.irs.gov/individuals/get-transcript",
+        },
+        {
+          name: "Proof of age or identity",
+          name_es: "Comprobante de edad o identidad",
+          status: "likely_have",
+          time_estimate: "5 min to find",
+          time_estimate_es: "5 min para encontrar",
+          description: "Birth certificate, driver's license, or passport",
+          description_es: "Acta de nacimiento, licencia de conducir o pasaporte",
+        },
+        {
+          name: "Work history (SSDI only)",
+          name_es: "Historial de trabajo (solo SSDI)",
+          status: "need_to_gather",
+          time_estimate: "20 min to gather",
+          time_estimate_es: "20 min para reunir",
+          description: "Summary of jobs and earnings for the last 15 years",
+          description_es: "Resumen de trabajos e ingresos de los últimos 15 años",
+          obtain_url: "https://www.ssa.gov/myaccount/",
         },
       ],
     },
@@ -398,4 +464,3 @@ export function getDependencyOrder(
  
   return withOrder.sort((a, b) => a.order - b.order);
 }
- 

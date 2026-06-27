@@ -20,6 +20,7 @@ PROGRAM_MONTHLY_VALUES_USD = {
     "pell_grant": 550.0,
     "liheap": 60.0,
     "section_8": 900.0,
+    "ssi_ssdi": 943.0,
 }
 
 

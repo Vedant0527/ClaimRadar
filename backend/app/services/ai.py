@@ -58,7 +58,7 @@ class GeminiService:
         messages = [
             SystemMessage(
                 content=(
-                    "You are FormZero.ai, an assistant that helps residents find "
+                    "You are FormZero, an assistant that helps residents find "
                     "unclaimed public services. Be concise, practical, and avoid "
                     "claiming guaranteed eligibility."
                 )

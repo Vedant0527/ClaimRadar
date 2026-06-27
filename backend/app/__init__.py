@@ -1,1 +1,1 @@
-"""FormZero.ai FastAPI backend package."""
+"""FormZero FastAPI backend package."""

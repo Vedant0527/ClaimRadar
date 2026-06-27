@@ -25,6 +25,9 @@ class AuditLedger:
         )
 
     async def get_citation(self, citation_id: str) -> Optional[AuditCitation]:
+        if not self.settings.supabase_url or not self.settings.supabase_anon_key:
+            return None
+
         def execute() -> Optional[AuditCitation]:
             response = (
                 supabase_repository.client.table("audit_sessions")
@@ -41,6 +44,9 @@ class AuditLedger:
         return await run_in_threadpool(execute)
 
     async def get_citation_age_seconds(self, citation_id: str) -> int:
+        if not self.settings.supabase_url or not self.settings.supabase_anon_key:
+            return 0
+
         def execute() -> int:
             response = (
                 supabase_repository.client.table("audit_sessions")
@@ -70,6 +76,9 @@ class AuditLedger:
         self,
         session_id: str,
     ) -> List[AuditCitation]:
+        if not self.settings.supabase_url or not self.settings.supabase_anon_key:
+            return []
+
         def execute() -> List[AuditCitation]:
             response = (
                 supabase_repository.client.table("audit_sessions")

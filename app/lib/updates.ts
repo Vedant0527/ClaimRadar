@@ -82,6 +82,19 @@ export const policyUpdates: PolicyUpdate[] = [
     source_url:
       "https://www.irs.gov/credits-deductions/individuals/earned-income-tax-credit",
   },
+  {
+    program: "SSI / SSDI (Supplemental Security & Disability)",
+    program_es: "SSI / SSDI (Seguridad de Ingreso Suplementario y Discapacidad)",
+    title: "2024 Cost-of-Living Adjustment (COLA) Increases SSI Benefit to $943",
+    title_es: "Ajuste por Costo de Vida (COLA) 2024 Eleva Beneficio de SSI a $943",
+    summary:
+      "The Social Security Administration announced a 3.2% COLA increase for 2024. The maximum monthly Supplemental Security Income (SSI) payment is now $943 for an individual and $1,415 for a couple. SSDI average payments also rose to around $1,500/month.",
+    summary_es:
+      "La Administración del Seguro Social anunció un aumento de COLA del 3.2% para 2024. El pago mensual máximo de SSI ahora es de $943 para personas y $1,415 para parejas. Los pagos promedio de SSDI también subieron a unos $1,500 al mes.",
+    effective_date: "January 2024",
+    category: "increase",
+    source_url: "https://www.ssa.gov/news/press/factsheets/colafacts2024.pdf",
+  },
 ];
 
 // Returns updates for a specific list of program names

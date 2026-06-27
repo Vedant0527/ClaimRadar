@@ -321,5 +321,51 @@ export function checkEligibility(profile: UserProfile): BenefitResult[] {
     },
   });
 
+  // 9. SSI / SSDI (Supplemental Security & Disability) ──────────────────────
+  let ssiSsdiStatus: BenefitResult["eligible"] = "no";
+  let ssiSsdiConfidence = 95;
+  let ssiSsdiReason = "";
+  let ssiSsdiValue = 0;
+
+  if (profile.has_elderly_or_disabled) {
+    if (profile.monthly_income <= 943) {
+      ssiSsdiStatus = "yes";
+      ssiSsdiConfidence = 90;
+      ssiSsdiReason = `You have a documented elderly/disabled flag and your monthly income ($${profile.monthly_income}) is at or below the individual Supplemental Security Income (SSI) threshold of $943/month.`;
+      ssiSsdiValue = 11316; // $943 * 12
+    } else if (profile.monthly_income <= 1550) {
+      ssiSsdiStatus = "likely";
+      ssiSsdiConfidence = 80;
+      ssiSsdiReason = `You have a documented elderly/disabled flag and your monthly income ($${profile.monthly_income}) is below the $1,550/month Substantial Gainful Activity (SGA) limit for Social Security Disability Insurance (SSDI). Work credit verification is required.`;
+      ssiSsdiValue = 18000; // Average SSDI benefit
+    } else {
+      ssiSsdiStatus = "unlikely";
+      ssiSsdiConfidence = 40;
+      ssiSsdiReason = `Your monthly income ($${profile.monthly_income}) exceeds the SSDI Substantial Gainful Activity (SGA) limit of $1,550/month.`;
+      ssiSsdiValue = 0;
+    }
+  } else {
+    ssiSsdiStatus = "no";
+    ssiSsdiConfidence = 95;
+    ssiSsdiReason = `SSI/SSDI requires the applicant to be elderly (65+) or have a qualifying physical or mental disability.`;
+    ssiSsdiValue = 0;
+  }
+
+  results.push({
+    name: "SSI / SSDI (Supplemental Security & Disability)",
+    eligible: ssiSsdiStatus,
+    confidence: ssiSsdiConfidence,
+    reason: ssiSsdiReason,
+    annual_value: "$11,316 - $18,000/year",
+    annual_value_number: ssiSsdiValue,
+    apply_url: "https://www.ssa.gov/benefits/disability/",
+    deadline: "Rolling — apply anytime",
+    source: {
+      document: "Social Security Disability & Supplemental Income Guidelines — SSA",
+      rule: "SSI limits monthly countable income to $943/month for individuals ($1,415 for couples) and resources to $2,000. SSDI requires a qualifying disability and work credits, with earnings under the Substantial Gainful Activity (SGA) limit of $1,550/month. 20 CFR § 416.1100, 20 CFR § 404.1574.",
+      url: "https://www.ssa.gov/benefits/disability/",
+    },
+  });
+
   return results;
 }
